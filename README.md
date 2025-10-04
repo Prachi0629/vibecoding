@@ -68,17 +68,42 @@ Simple footer with copyright.
 HTML5 – Semantic and structured markup.
 CSS3 – Styling, grid layouts, flexbox, animations, and responsive design.
 JavaScript (Vanilla) –
-
-
-
-Mobile menu toggle
-
-Course card flip effect
-
-Event search filter
-
-FAQ toggle functionality
+->Mobile menu toggle
+->Course card flip effect
+->Event search filter
+->FAQ toggle functionality
 
 💻 How to Use
 1. Clone the repository
-   git clone 
+   git clone
+
+
+
+2. Open in Browser
+
+Navigate to the cloned folder and open index.html in your preferred browser.
+
+Customize Faculty Images
+
+Replace the images in the /images folder and update the <img> src attributes in the Faculty section.
+
+Edit Content
+
+You can edit courses, events, library info, FAQs, or any section directly in the HTML.
+
+Test Interactivity
+
+Click course cards to see flip effect.
+
+Toggle FAQ questions to view answers.
+
+Use the event search to filter events dynamically.
+
+Use mobile menu toggle for responsive testing.
+
+📜 License
+This project is open-source and available under the MIT License.
+
+👤 Author
+Prachi Joshi – Full-stack developer and UI/UX enthusiast.
+GitHub: https://github.com/Prachi0629
