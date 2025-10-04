@@ -1,4 +1,4 @@
-# vibecoding
+#vibecoding
 Campus Hub Website
 
 Campus Hub is a modern, responsive, and interactive college website template designed to showcase a campus’s courses, faculty, events, library facilities, campus map, and FAQs. This project is built using HTML, CSS, and JavaScript, focusing on usability, clean design, and responsiveness.
