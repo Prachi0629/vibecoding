@@ -105,4 +105,9 @@ This project is open-source and available under the MIT License.
 
 👤 Author
 Prachi Joshi – Full-stack developer and UI/UX enthusiast.
+
 GitHub: https://github.com/Prachi0629
+
+AI technology used:-
+
+Some portions of the project, including CSS layout suggestions, JavaScript logic for interactivity (course flips, event search, and FAQ toggle), and README documentation, were drafted with the help of AI tools (ChatGPT by OpenAI). The project’s code and design have been reviewed and modified manually to meet contest requirements.
