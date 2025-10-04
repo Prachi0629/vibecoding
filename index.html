@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo" style="font-family: Brush Script MT,Brush Script Std, cursive; color: #ff6600;
+    font-size: 30px;">
+      Campus Hub</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#library">Library</a></li>
+      <li><a href="#map">Map</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ul>
+    <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="overlay">
+      <h1>Welcome to <span style="color:#ff6600; font-weight: bolder;">Campus Hub</span></h1>
+      <p>Shaping the Future with Knowledge & Innovation</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Our College</h2>
+    <p style="font-weight: 600;">
+      Our campus stands as a beacon of excellence with modern facilities,
+       highly qualified faculty, and a vibrant community.
+        We nurture students into global leaders through academics, labs, sports, and 
+        cultural activities.
+        Beyond academics, the campus fosters personal growth through numerous clubs, cultural events,
+   sports tournaments, and community service initiatives. Our emphasis on mentorship, leadership, and 
+   collaboration prepares students to excel in a dynamic global environment.
+
+We pride ourselves on creating an inclusive and supportive atmosphere where creativity, curiosity,
+ and critical thinking are celebrated. Every student is empowered to explore their passions, engage in
+  interdisciplinary learning, and contribute meaningfully to society.
+    </p>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses">
+    <h2>Courses Offered</h2>
+    <div class="courses-grid">
+      <div class="course-card">
+        <div class="card-front">Computer Science</div>
+        <div class="card-back">AI, ML, Data Science,Web Development</div>
+      </div>
+      <div class="course-card">
+        <div class="card-front">Electronics</div>
+        <div class="card-back">Microprocessors, IoT, VLSI, Communication</div>
+      </div>
+      <div class="course-card">
+        <div class="card-front">Mechanical</div>
+        <div class="card-back">Robotics, CAD/CAM, Thermal</div>
+      </div>
+      <div class="course-card">
+        <div class="card-front">Civil</div>
+        <div class="card-back">Structural, Construction, Surveying</div>
+      </div>
+
+       <div class="course-card">
+        <div class="card-front">Information Technology</div>
+        <div class="card-back">Cybersecurity, Networking, and Cloud Computing.</div>
+      </div>
+      <div class="course-card">
+        <div class="card-front">Electrical</div>
+        <div class="card-back">Power Systems, Automation, and Renewable Energy.</div>
+      </div>
+      <div class="course-card">
+        <div class="card-front">Chemical</div>
+        <div class="card-back">Biotechnology, Industrial Processes & Materials.</div>
+      </div>
+<div class="course-card">
+        <div class="card-front">Instumentation</div>
+        <div class="card-back">Control systems & Process Control, Transducers and Circuit theory.</div>
+      </div>
+
+
+    </div>
+  </section>
+
+  
+<!-- Faculty -->
+<section id="faculty">
+  <h2>Our Faculty</h2>
+  <div class="faculty-showcase">
+    <div class="faculty-card">
+      <img src="./images (3).jpg" alt="Dr. John Smith">
+      <p><strong>Dr. John Smith</strong><br>Dean of Computer Science</p>
+    </div>
+    <div class="faculty-card">
+      <img src="./images (2).jpg" alt="Dr. Emily Johnson">
+      <p><strong>Dr. Emily Johnson</strong><br>T & P Incharge</p>
+    </div>
+    <div class="faculty-card">
+      <img src="./images (1).jpg" alt="Prof. Michael Brown">
+      <p><strong>Prof. Michael Brown</strong><br>Head of Student Council</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Events -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="search-bar-container">
+      <input type="text" id="search-events" placeholder="Search events..." aria-label="Search Events">
+    </div>
+    <div class="event-grid" id="event-list">
+      <div class="event-card" data-name="Tech Fest">
+        💡 <strong style="font-size: large;">Tech Fest</strong>
+        <p>Date: March 10, 2025</p>
+        <p>Venue: Main Auditorium</p>
+        <p>A showcase of technology, coding competitions, and start-up pitches.</p>
+      </div>
+      <div class="event-card" data-name="Cultural Fest">
+        🎭 <strong style="font-size: large;">Cultural Fest</strong>
+        <p>Date: April 5–7, 2025</p>
+        <p>Venue: Open Grounds</p>
+        <p>Dance, music, drama, and cultural performances from across colleges.</p>
+      </div>
+      <div class="event-card" data-name="Hackathon">
+        ⚡ <strong style="font-size: large;">Hackathon</strong>
+        <p>Date: May 15, 2025</p>
+        <p>Venue: Innovation Lab</p>
+        <p>24-hour coding sprint to solve real-world challenges with teamwork.</p>
+      </div>
+      <div class="event-card" data-name="Sports Meet">
+        🏆 <strong style="font-size: large;">Sports Meet</strong>
+        <p>Date: June 20–22, 2025</p>
+        <p>Venue: Sports Complex</p>
+        <p>Inter-college tournaments in cricket, football, basketball, and athletics.</p>
+      </div>
+      <div class="event-card" data-name="Literature Week">
+        📖 <strong style="font-size: large;">Literature Week</strong>
+        <p>Date: August 1–7, 2025</p>
+        <p>Venue: Seminar Hall</p>
+        <p>Debates, poetry slams, book fairs, and author interactions.</p>
+      </div>
+      <div class="event-card" data-name="Alumni Meet">
+        🎶 <strong style="font-size: large;">Alumni Meet</strong>
+        <p>Date: December 12, 2025</p>
+        <p>Venue: Convention Center</p>
+        <p>A networking evening with distinguished alumni and cultural performances.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Library -->
+  <section id="library">
+    <h2>Library Facilities</h2>
+    <p class="library-intro">
+      Our state-of-the-technological library provides students with a peaceful environment 
+      and access to a wide range of resources for academic and personal growth.
+    </p>
+    <div class="library-grid">
+      <div class="library-card">
+        📚 <strong>Vast Collection</strong>
+        <p>Over 50,000 books, journals, and research papers across all domains.</p>
+      </div>
+      <div class="library-card">
+        💻 <strong>Digital Library</strong>
+        <p>Access to e-books, online databases, and research articles 24/7.</p>
+      </div>
+      <div class="library-card">
+        🪑 <strong>Reading Rooms</strong>
+        <p>Comfortable and silent study spaces for individual and group learning.</p>
+      </div>
+      <div class="library-card">
+        🔖 <strong>Special Collections</strong>
+        <p>Rare manuscripts, reference archives, and project repositories.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Map -->
+  <section id="map">
+    <h2>Campus Location</h2>
+    <div class="map-container">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2519105.
+    7080220957!2d-0.26459933875264113!3d51.932783109230385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1samsterdam%
+    20lond!5e0!3m2!1sen!2sin!4v1751289749419!5m2!1sen!2sin" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+    </iframe>
+      <div class="map-text" style="font-weight: 600;">
+        <p>Our campus is located in a prime area with world-class infrastructure, 
+          fostering learning and innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <button class="faq-question">📘 What courses are available?</button>
+      <div class="faq-answer">We offer streams in CSE, IT, Civil, Mechanical, Electrical, Chemical, etc.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">📝 How can I apply for admission?</button>
+      <div class="faq-answer">Admissions are conducted via national/state-level exams and merit lists.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">🏠 Do you provide hostels?</button>
+      <div class="faq-answer">Yes, we provide both boys and girls modern hostels with excellent facilities.
+</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">📚 How can I access the library?</button>
+      <div class="faq-answer">Students can use their ID cards to borrow books and access digital media.
+        Library facility is valid till ID cards expiry year.
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Campus Hub | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
