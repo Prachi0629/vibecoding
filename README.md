@@ -75,9 +75,8 @@ JavaScript (Vanilla) –
 
 💻 How to Use
 1. Clone the repository
-   git clone
 
-
+   git clone https://github.com/Prachi0629/vibecoding.git
 
 2. Open in Browser
 
